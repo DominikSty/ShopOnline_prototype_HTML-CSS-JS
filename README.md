@@ -1,4 +1,4 @@
-# ShopOnline - prototype (HTML, CSS, JS)
+# Website ShopOnline - prototype (HTML, CSS, JS)
 ## Introduction
 The website is intended for wholesalers selling goods to smaller companies.
 ## Project structure and directory description
