@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online store</title>
+	<meta charset="utf-8">
+	<meta name="author" content="DominikSty"/>
+	<meta name="Last-Modified" content="2020-12-13"/>
+	<link rel="stylesheet" href="files/appcode/style.css">
+	<script type="text/javascript" src="files/appcode/script.js"></script>
+</head>
+<body>
+<div id="menu">
+	<img src="files/image/logo.png" width="50px" height="50px" alt="logo" id="logo">
+	<p id="companyName">Online store</p>
+	<div id="shopButton" onclick="cartItem();"><img src="files/image/cart_icon.png" width="20" height="20"> CART</div>
+</div>
+<div id="window_title"></div>
+<div id="window">
+	<img id="pictureItem" src="">
+	<span id="nameItem"></span>
+	<span id="descriptionItem"></span>
+	<span id="priceItem"></span>
+	<div id="addToCartButton" onclick="addToCartItem();">Add to cart</div>
+	<div id="closeButton" onclick="closeItem();">Close</div>
+</div>
+<div id="windowCart">
+	<span id="titleCart">Your cart:</span>
+	<textarea id="textarea_item" readonly="true"></textarea>
+	<span id="product_list_sum">SUM: 0,00</span>
+	<div id="buy" onclick="buyItem();">Buy all</div>
+	<div id="clearCart" onclick="clearCartItem();">Clear cart</div>
+	<div id="closeCart" onclick="closeCartItem();">Close cart</div>
+</div>
+<div id="main">
+<br>
+	<div id="promotionPicture"><center><img src="files/image/main_picture.png" width="400" height="271"></center><br><div id="companyDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ex turpis, imperdiet eget hendrerit eu, sollicitudin a urna. In facilisis, elit in fermentum vulputate, purus ante convallis lacus, blandit maximus massa nisi in massa. Quisque suscipit nunc tellus, nec tristique est gravida quis. Etiam eget libero vel odio aliquam mollis.</div></div>
+<br>
+	<div id="articles">
+<!-- ITEM-HTML-START -->
+		<div id="item_1" onclick="item_1();">
+			<div id="titleItem">item_1</div>
+		</div>
+
+		<div id="item_2" onclick="item_2();">
+			<div id="titleItem">item_2</div>
+		</div>
+
+		<div id="item_3" onclick="item_3();">
+			<div id="titleItem">item_3</div>
+		</div>
+
+		<div id="item_4" onclick="item_4();">
+			<div id="titleItem">item_4</div>
+		</div>
+
+		<div id="item_5" onclick="item_5();">
+			<div id="titleItem">item_5</div>
+		</div>
+
+		<div id="item_6" onclick="item_6();">
+			<div id="titleItem">item_6</div>
+		</div>
+
+		<div id="item_7" onclick="item_7();">
+			<div id="titleItem">item_7</div>
+		</div>
+
+		<div id="item_8" onclick="item_8();">
+			<div id="titleItem">item_8</div>
+		</div>
+<!-- ITEM-HTML-END -->
+	</div>
+	<br>
+	</div>
+	<div id="footer">
+		Author: DominikSty<br>2020<br>Creative project
+	</div>
+</body>
+</html>
